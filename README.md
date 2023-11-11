@@ -31,6 +31,12 @@ The wiring of SSD1306 and SSD1351 is very different.
    SDA   |   D2
 
 
+# Final effect
+This is the final effect with the example GIF in this repository:
+
+
+https://github.com/Ateee329/ESPGIF_SSD1306/assets/74974216/7515b0c4-bacd-4f93-b454-598329e4a9a6
+
 
 # Thanks to
 ESPGIF https://github.com/shraiwi/ESPGIF  
