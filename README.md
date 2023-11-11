@@ -1,6 +1,7 @@
 # ESPGIF_SSD1306
 This repository is modified based on ESPGIF by shraiwi. It can display GIF for ESP8266 with SSD1306 screen.
 
+
 # Introduction
 This project is based on [ESPGIF](https://github.com/shraiwi/ESPGIF) by [shraiwi](https://github.com/shraiwi).  
 
@@ -16,13 +17,19 @@ I used an online GIF editer called [EZGIF](https://ezgif.com) to adjust my GIF t
 
 The change in each file will be described in detail in the README of each folder.
 
+
 # Thanks to
 ESPGIF https://github.com/shraiwi/ESPGIF  
 
 and the author  
 
 shraiwi https://github.com/shraiwi
-  
+
+
+# License
+This repository is licensed the same as the repository this repository is based on - Apache License 2.0  
+
+
 # README from the ESPGIF (the original repository) 
 -----------------------------------
 ## ESPGIF
