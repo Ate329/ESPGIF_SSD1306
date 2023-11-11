@@ -20,7 +20,9 @@ import sys
 ```
 Because it is not used in the entire program.  
 
-## Changed 
+## Modifications
+
+### Changed from
 ```python
     for x in range(resolution[0]):
         for y in range(resolution[1]):
@@ -30,7 +32,7 @@ Because it is not used in the entire program.
                 counter = 0
                 send("\n")
 ```
-### To
+to
 ```python
     for x in range(frame.width):
         for y in range(frame.height):
@@ -41,11 +43,11 @@ Because it is not used in the entire program.
                 send("\n")
 ```
 
-## Changed
+### Changed from
 ```python
 resolution = (128, 128)
 ```
-### To
+to
 ```python
 width = simpledialog.askinteger("Input", "Enter the width of the output")
 height = simpledialog.askinteger("Input", "Enter the height of the output")
