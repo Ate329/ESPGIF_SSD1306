@@ -1,0 +1,15 @@
+```c
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+#include <Wire.h>
+#include <SPI.h>
+#include "GIF.h"
+```
+
+```python
+from PIL import Image
+import os
+import tkinter as tk
+import tkinter.filedialog as filedialog
+import tkinter.simpledialog as simpledialog
+```
