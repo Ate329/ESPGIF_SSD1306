@@ -1,5 +1,5 @@
 # Introduction
-GIFConvert.py is the original file created by [shraiwi](https://github.com/shraiwi)  
+GIFConvert.py is the original file created by [shraiwi](https://github.com/shraiwi).  
 
 GIFConvertNew.py is the modified one.  
 
