@@ -49,17 +49,6 @@ void testdrawstyles(){
   display.display();
   delay(2800);
   display.clearDisplay();
-
-  display.setTextSize(2);
-  display.setTextColor(SSD1306_WHITE);
-  display.setCursor(0,0);
-  display.println(F("I LOVE ZQQ"));
-  display.setTextSize(3);
-  display.println(F("ZQQ THE"));
-  display.println(F("BEST!!!"));
-
-  display.display();
-  delay(1);
 }
 
 void loop() {
