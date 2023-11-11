@@ -18,6 +18,25 @@ There might be some changes are not being mentioned.
 ```
 
 
+## Deleted
+```c
+// Replace with your SPI Pins. 
+// SCLK and MOSI definitions are just there for reference, changing those values will not change their actual mappings.
+// BTW, these map to the GPIOs of the ESP8266, not what it says on the board. CHECK YOUR BOARD'S PINOUTS!!!
+#define SCLK_PIN 14
+#define MOSI_PIN 13
+#define DC_PIN   5
+#define CS_PIN   15
+#define RST_PIN  4
+```
+```c
+uint32_t start = 0;
+uint32_t end = 0;
+
+uint16_t buf[NUM_PIXELS];
+```
+
+
 ## Modifications
 
 ### Changed from
@@ -121,23 +140,4 @@ void displayFrame(byte frame) {
   
   display.display();
 }
-```
-
-
-## Deleted
-```c
-// Replace with your SPI Pins. 
-// SCLK and MOSI definitions are just there for reference, changing those values will not change their actual mappings.
-// BTW, these map to the GPIOs of the ESP8266, not what it says on the board. CHECK YOUR BOARD'S PINOUTS!!!
-#define SCLK_PIN 14
-#define MOSI_PIN 13
-#define DC_PIN   5
-#define CS_PIN   15
-#define RST_PIN  4
-```
-```c
-uint32_t start = 0;
-uint32_t end = 0;
-
-uint16_t buf[NUM_PIXELS];
 ```
