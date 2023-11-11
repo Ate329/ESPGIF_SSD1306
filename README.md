@@ -1,5 +1,5 @@
 # ESPGIF_SSD1306
-This repository is modified based on ESPGIF by shraiwi. It can display GIF for ESP8266 with SSD1306 screen.
+This repository is modified based on ESPGIF by shraiwi. It can display GIF for ESP8266 with SSD1306 OLED screen.
 
 
 # Introduction
@@ -7,10 +7,10 @@ This project is based on [ESPGIF](https://github.com/shraiwi/ESPGIF) by [shraiwi
 
 Now the GIFCovert can be used for any size of GIF and convert into a size that you want.  
 
-GIFDisplay in the folder GIFDisplay is being changed based on the use of SSD1306 instead of SSD1351 screen.  
+GIFDisplay in the folder GIFDisplay is being changed based on the use of SSD1306 instead of SSD1351 OLED screen.  
   
 GIF.h in the folder GIFdisplay is an example of convertion with the example gif in the ExampleGIF folder.  
-(The example uses SSD1306 NOT SSD1351)  
+(The example uses SSD1306 NOT SSD1351 OLED screen)  
 
 I used an online GIF editer called [EZGIF](https://ezgif.com) to adjust my GIF to the resolution I want and the size can be loaded into ESP8266.  
 (Due to the fact that most ESP8266 development boards have little flash memory)
