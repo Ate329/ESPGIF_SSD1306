@@ -70,7 +70,7 @@ void loop() {
   if (counter == NUM_FRAMES) {
     counter = 0;
   }
-  delay(135);
+  delay(130);
 }
 
 void displayFrame(byte frame) {
