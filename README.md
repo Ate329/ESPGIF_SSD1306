@@ -5,9 +5,13 @@ This repository is modified based on ESPGIF by shraiwi. It can display GIF for E
 This project is based on [ESPGIF](https://github.com/shraiwi/ESPGIF) by [shraiwi](https://github.com/shraiwi).  
 
 Now the GIFCovert can be used for any size of GIF and convert into a size that you want.  
+
+GIFDisplay in the folder GIFDisplay is being changed based on the use of SSD1306 instead of SSD1351 screen.  
   
 GIF.h in the folder GIFdisplay is an example of convertion with the example gif in the ExampleGIF folder.  
-(The example uses SSD1306 NOT SSD1351)
+(The example uses SSD1306 NOT SSD1351)  
+
+The change in each file will be described in detail in the README of each folder.
 
 # Thanks to
 ESPGIF https://github.com/shraiwi/ESPGIF  
