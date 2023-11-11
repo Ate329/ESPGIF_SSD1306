@@ -54,7 +54,7 @@ This repository is licensed the same as the repository this repository is based 
 
 
 # README from the ESPGIF (the original repository) 
-**BEARING IN MIND that this repository is based on SSD1306 NOT SSD1351!!!**
+**BEARING IN MIND that this NEW repository is based on SSD1306 NOT SSD1351!!!**
 ***********************************
 -----------------------------------
 ***********************************
