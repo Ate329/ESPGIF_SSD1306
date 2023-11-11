@@ -52,13 +52,15 @@ shraiwi https://github.com/shraiwi
 # License
 This repository is licensed the same as the repository this repository is based on - Apache License 2.0  
 
+***********************************
+-----------------------------------
+
 
 # README from the ESPGIF (the original repository) 
 **BEARING IN MIND that this NEW repository is suitable for SSD1306 NOT SSD1351!!!**
 ***********************************
 -----------------------------------
 ***********************************
------------------------------------
 
 
 ## [ESPGIF](https://github.com/shraiwi/ESPGIF)
