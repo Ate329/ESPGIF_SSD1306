@@ -54,8 +54,14 @@ This repository is licensed the same as the repository this repository is based 
 
 
 # README from the ESPGIF (the original repository) 
+**BEARING IN MIND that this repository is based on SSD1306 NOT SSD1351**
+***********************************
 -----------------------------------
-## ESPGIF
+***********************************
+-----------------------------------
+
+
+## [ESPGIF](https://github.com/shraiwi/ESPGIF)
 ESPGIF is a project which uses an ESP8266, and an SSD1351 OLED display to display a GIF! This project has the Arduino Code and a tool to convert the GIF into a byte array.
 ## How do I use it?!
 This a quick tutorial on how to use the library.
