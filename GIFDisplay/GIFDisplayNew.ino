@@ -35,6 +35,7 @@ void setup() {
 }
 
 void testdrawstyles(){
+  //test text output
   display.clearDisplay();
 
   display.setTextSize(3);
