@@ -3,6 +3,7 @@ GIFDisplay.py is the original file created by [shraiwi](https://github.com/shrai
 
 GIFDisplayNew.py is the file modified one based on the need of using SSD1306 instead of SSD1351.
 
+
 # Changes
 There might be some changes are not being mentioned.  
 
@@ -17,7 +18,7 @@ There might be some changes are not being mentioned.
 ```
 
 
-## Modification
+## Modifications
 
 ### Changed from
 ```c
