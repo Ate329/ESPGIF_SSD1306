@@ -18,6 +18,18 @@ I used an online GIF editer called [EZGIF](https://ezgif.com) to adjust my GIF t
 The change in each file will be described in detail in the README of each folder.
 
 
+## Wiring
+The wiring of SSD1306 and SSD1351 is very different.  
+
+ SSD1306 | ESP8266 
+ ------- | ------- 
+   GND   |    G 
+   VCC   |   3V
+   SCL   |   D1
+   SDA   |   D2
+
+
+
 # Thanks to
 ESPGIF https://github.com/shraiwi/ESPGIF  
 
