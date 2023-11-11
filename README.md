@@ -11,7 +11,7 @@ GIFDisplay in the folder GIFDisplay is being changed based on the use of SSD1306
 GIF.h in the folder GIFdisplay is an example of convertion with the example gif in the ExampleGIF folder.  
 (The example uses SSD1306 NOT SSD1351)  
 
-I used the online gif editer [EZGIF](https://ezgif.com) to adjust my GIF to the resolution I want and the size can be loaded into ESP8266.  
+I used an online GIF editer called [EZGIF](https://ezgif.com) to adjust my GIF to the resolution I want and the size can be loaded into ESP8266.  
 (Due to the fact that most ESP8266 development boards have little flash memory)
 
 The change in each file will be described in detail in the README of each folder.
