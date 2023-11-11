@@ -7,18 +7,23 @@ You can now select GIF with any size and convert it into any size of GIF.
 
 GIFConverNew.py will ask you to input the aiming size of GIF after being converted through Tkinter.  
 
+
 # Changes
 There might be some other changes are not being mentioned.    
+
 
 ## Added
 ```python
 import tkinter.simpledialog as simpledialog
 ```
+
+
 ## Deleted 
 ```python
 import sys
 ```
 Because it is not used in the entire program.  
+
 
 ## Modifications
 
