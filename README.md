@@ -11,7 +11,7 @@ Now the GIFCovert can be used for any size of GIF and convert into a size that y
 
 GIFDisplay in the folder GIFDisplay is being changed based on the use of SSD1306 instead of SSD1351 OLED screen.  
   
-GIF.h in the folder GIFdisplay is an example of convertion with the example gif in the ExampleGIF folder.  
+GIF.h in the folder ExampleGIF is an example of convertion with the example gif in the ExampleGIF folder.  
 (The example uses SSD1306 NOT SSD1351 OLED screen)  
 
 I used an online GIF editer called [EZGIF](https://ezgif.com) to adjust my GIF to the resolution I want and the size can be loaded into ESP8266.  
