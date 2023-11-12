@@ -17,7 +17,7 @@ GIF.h in the folder ExampleGIF is an example of convertion with the example gif 
 I used an online GIF editer called [EZGIF](https://ezgif.com) to adjust my GIF to the resolution I want and the size can be loaded into ESP8266.  
 (Due to the fact that most ESP8266 development boards have little flash memory)  
 
-**YOU NEDD TO PUT THE CONVERTED FILE(GIF.h) IN THE SAME FOLDER WITH GIFDisplayNew.ino or GIFDisplay.ino**  
+**YOU NEDD TO PUT THE CONVERTED FILE(GIF.h) IN THE SAME FOLDER WITH GIFDisplayNew.ino or GIFDisplay.ino or CHANGE THE CODE DEPENDING ON THE SCREEN YOU HAVE.**  
 
 The change in each file will be described in detail in the README in each folder.
 
