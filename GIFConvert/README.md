@@ -7,6 +7,8 @@ You can now select GIF with any size and convert it into any size of GIF.
 
 GIFConverNew.py will ask you to input the aiming size of GIF after being converted through Tkinter.  
 
+**YOU NEDD TO PUT THE CONVERTED FILE(GIF.h) IN THE SAME FOLDER WITH GIFDisplayNew.ino or GIFDisplay.ino or CHANGE THE CODE DEPENDING ON THE SCREEN YOU HAVE.**  
+
 
 # Changes
 There might be some other changes are not being mentioned.    
