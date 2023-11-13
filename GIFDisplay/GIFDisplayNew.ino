@@ -60,7 +60,7 @@ void loop() {
   if (counter == NUM_FRAMES) {
     counter = 0;
   }
-  delay(130);
+  delay(130); //here you can adjust the display speed of each fram (1000 = 1s)
 }
 
 void displayFrame(byte frame) {
