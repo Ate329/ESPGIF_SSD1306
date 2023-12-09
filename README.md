@@ -46,7 +46,7 @@ Sorry for the poor video quality:(
 # Thanks to
 ESPGIF https://github.com/shraiwi/ESPGIF  
 
-and the author  
+and its author  
 
 shraiwi https://github.com/shraiwi
 
