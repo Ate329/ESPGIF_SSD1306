@@ -1,16 +1,16 @@
 # Introduction
 
-**DO NOT RUN THE GIFConvert.py FILE IN THIS FOLDER!!!**
+**DO NOT RUN GIFConvert.py FILE IN THIS FOLDER!!!**
 
-GIFConvert.py is the original file created by [shraiwi](https://github.com/shraiwi).  
+GIFConvertOld.py is the original file created by [shraiwi](https://github.com/shraiwi).  
 
-GIFConvertNew.py is the modified one.  
+GIFConvert.py is the modified one.  
 
 You can now select GIF with any size and convert it into any size of GIF.  
 
 GIFConverNew.py will ask you to input the aiming size of GIF after being converted through Tkinter.  
 
-**YOU NEDD TO PUT THE CONVERTED FILE(GIF.h) IN THE SAME FOLDER WITH GIFDisplayNew.ino or GIFDisplay.ino or CHANGE THE CODE DEPENDING ON THE SCREEN YOU HAVE.**  
+**YOU NEDD TO PUT THE CONVERTED FILE(GIF.h) IN THE SAME FOLDER WITH GIFDisplayOld.ino or GIFDisplay.ino or CHANGE THE CODE DEPENDING ON THE SCREEN YOU HAVE.**  
 
 
 # Changes
