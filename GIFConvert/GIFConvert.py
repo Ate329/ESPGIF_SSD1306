@@ -1,9 +1,9 @@
 from PIL import Image
-import sys
 import os
 
 import tkinter as tk
 import tkinter.filedialog as filedialog
+import tkinter.simpledialog as simpledialog
 
 def chunks(l, n):
     for i in range(0, len(l), n):
@@ -23,10 +23,12 @@ def string565(color):
 
 linelen = 30;
 
-resolution = (128, 128)
-
 root = tk.Tk()
 root.withdraw()
+
+width = simpledialog.askinteger("Input", "Enter the width of the output")
+height = simpledialog.askinteger("Input", "Enter the height of the output")
+resolution = (width, height)
 
 path = filedialog.askopenfilename(title = "Select GIF")
 
@@ -34,8 +36,11 @@ im = Image.open(path)
 
 palette = im.getpalette()
 
-send("/* Converted using GIF2BYTE <3\n")
-send(" * Copy this text into your program!*/\n")
+send("/* Here is the converted version of the GIF!\n")
+send(" * Converted using GIF2BYTE <3\n")
+send(" * Copy this text into your program!*\n")
+send(" * Original version: https://github.com/shraiwi/ESPGIF*\n")
+send(" * Modified version: https://github.com/Ate329/ESPGIF_SSD1306*/\n")
 
 send("\n#define NUM_FRAMES " + str(im.n_frames))
 
@@ -82,23 +87,6 @@ for n in range(im.n_frames):
 
     im.seek(n)
 
-    '''
-    crop = (0, 0, 0, 0)
-
-    if im.width > im.height:
-        crop = (0,
-                (im.height - resolution[0]) / 2,
-                im.width,
-                (im.height + resolution[1]) / 2)
-    else:
-        crop = ((im.width - resolution[0]) / 2,
-                0,
-                (im.width + resolution[1]) / 2,
-                im.height)
-
-    frame = im.crop(crop)
-    '''
-    
     frame = im.resize(resolution)
 
     frame = frame.transpose(Image.FLIP_LEFT_RIGHT)
@@ -112,8 +100,8 @@ for n in range(im.n_frames):
 
     counter = 0
     
-    for x in range(resolution[0]):
-        for y in range(resolution[1]):
+    for x in range(frame.width):
+        for y in range(frame.height):
             send(str(frame.getpixel((x, y))) + ",\t")
             counter += 1
             if counter == linelen:
@@ -129,5 +117,29 @@ text.close()
 
 os.startfile('out.txt')
 
-print("complete!")
+with open('out.txt', 'r') as file:
+    content = file.read()
+file.close()
 
+output_directory = './GIFDisplay'
+output_file_path = os.path.join(output_directory, 'GIF.h')
+
+# Use an absolute path for the output file
+output_file_path = os.path.abspath(os.path.join(output_directory, 'GIF.h'))
+
+# Create the directory if it doesn't exist
+try:
+    os.makedirs(output_directory)
+except FileExistsError:
+    pass  # Directory already exists
+
+# Open the file for writing
+try:
+    with open(output_file_path, 'w') as file:
+        file.write(content)
+    print(f"File '{output_file_path}' successfully created.")
+except Exception as e:
+    print(f"Error creating the file '{output_file_path}': {e}")
+
+
+print("complete!")
