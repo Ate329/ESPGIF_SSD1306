@@ -4,7 +4,7 @@ This repository is modified based on [ESPGIF](https://github.com/shraiwi/ESPGIF)
 **I hope everyone who has SSD1306 and struggling of converting GIF and displaying GIF on it will find this repository helpful!**
 
 
-# Introduction
+## Introduction
 This project is based on [ESPGIF](https://github.com/shraiwi/ESPGIF) (for SSD1351) by [shraiwi](https://github.com/shraiwi).    
 
 Now the GIFCovert can be used for any size of GIF and convert into a size that you want.  
@@ -33,7 +33,7 @@ The wiring of SSD1306 and SSD1351 is quite different.
    SDA   |   D2
 
 
-# Final effect
+## Demonstration
 Here is a video of the final effect with the example GIF in this repository:  
 
 
@@ -45,8 +45,8 @@ https://github.com/Ate329/ESPGIF_SSD1306/assets/74974216/619176a2-10b5-434a-b542
 Sorry for the poor video quality :(  
 
 
-# Thanks to
+## Thanks to
 ESPGIF https://github.com/shraiwi/ESPGIF  
 
-# License
+## License
 This repository is under the Apache 2.0 License, the same as [ESPGIF](https://github.com/shraiwi/ESPGIF).
